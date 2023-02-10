@@ -1,0 +1,143 @@
+
+
+body
+{
+    color: azure;
+    background-image: url("Croud.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #000509;
+    font-family: 'Courier New', monospace;
+    margin: 0px;
+    
+}
+
+
+.topbar
+{
+    display: flex;
+    margin: 25px;
+}
+.topbar div
+{
+    margin-right: 20px;
+}
+.title
+{
+    
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.block
+{
+    background-color: rgba(15%, 15%, 19%, 60%);
+    padding: 5px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.block > div
+{
+    margin: 20px;
+}
+
+.block1
+{
+    background-color: rgba(15%, 15%, 20%, 50%);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0px 40px;
+    font-size: large;
+    text-align: center;
+    width: 25%;
+}
+
+.block2
+{
+    background-color: rgba(15%, 15%, 20%, 50%);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: large;
+    text-align: center;
+}
+
+.table1 > div
+{
+    margin: 30px 0px;
+}
+
+table
+{
+    background-color: calc(10%, 10%, 15%);
+    table-layout: fixed;
+    width: 100%;
+    border-radius: 13px;
+    border: 3px solid darkgrey;
+}
+th, td
+{
+    padding: 5px;
+}
+
+a
+{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+
+
+
+.advertisnment
+{
+    font-size: 12px;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    max-height: 90px;
+    background-color: #333;
+    color: wheat;
+    border-radius: 40px;
+}
+.advertisnment > div
+{
+    margin: 10px 10px 0px 10px;
+}
+
+
+
+.bottombar
+{
+    border-radius: 40% 40% 0% 0%;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+}
+.bottombar > div:first-child
+{
+    border-radius: 39%;
+    border-width: 7px 0px 0px 0px;
+    border-color: rgb(5%, 5%, 20%);
+    padding-top: 20px;
+}
+.bottombar > div
+{
+    padding: 10px 5px;
+    padding-bottom: 15px;
+    
+    text-align: center;
+    
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: rgb(5%, 5%, 25%);
+}
+
+
+
+/*
+@@#=========D
+*/
